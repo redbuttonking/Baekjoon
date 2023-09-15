@@ -1,3 +1,9 @@
+/*
+- LinkedHashSet 에 대해 알게 됨
+- 초기 값인 배열( 정렬하고 싶은 배열 )을 중복을 제거하고 동시에 정렬까지 보장된 LinkedHashSet를 만듦
+- sort()에서 Comparator.comparing(String::length)를 통해 배열에 있는 문자열 길이 순으로 정렬을 함 
+ */
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedHashSet;

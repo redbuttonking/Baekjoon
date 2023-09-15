@@ -1,3 +1,10 @@
+/* comment 
+- 브루트포스 알고리즘을 사용
+- 만들어야 할 체스판(B, W 두가지)을 만들어서 입력된 체스판과 하나 하나 비교함
+- solved 함수에 비교할 체스판의 시작 좌표(x,y)를 넣어 주어 8*8 체스판을 비교
+- 8*8이기 때문에 비교 범위(index)가 벗어나지 않도록 지정해줌
+*/
+
 import java.util.Scanner;
 
 public class baekjoon_1018 {
